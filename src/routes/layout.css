@@ -1,16 +1,18 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-cream: #F4D3E2;
-  --color-rose: #E5BCCF;
-  --color-brown-light: #876C50;
-  --color-brown-dark: #876440;
-  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+    --color-cream: #FFF4E1;
+    --color-rose-1: #FFBCD5;
+    --color-rose-2: #DF9FAE;
+    --color-rose-3: #C28A82;
+    --color-brown: #8C6C49;
+    --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
 }
 
+
 body {
-  background: radial-gradient(circle at 50% 30%, #876C50, #876440);
-  color: var(--color-cream);
-  font-family: var(--font-sans);
-  min-height: 100vh;
+    background: var(--color-cream);
+    color: var(--color-rose-3);
+    font-family: var(--font-sans);
+    min-height: 100vh;
 }
