@@ -7,9 +7,8 @@
     let links = $derived([
         {label: t.nav.formacao, href: '#formacao'},
         {label: t.nav.experiencia, href: '#experiencia'},
-        {label: t.nav.competencias, href: '#competencias'},
-        {label: t.nav.portfolio, href: '#portfolio'},
-        {label: t.nav.sobre, href: '#sobre'},
+        {label: t.nav.competencias, href: '#competencias'}
+        
     ]);
 </script>
 
