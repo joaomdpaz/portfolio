@@ -26,8 +26,6 @@
             <section id="competencias" class=" scroll-mt-24 col-2">
                 <Skills {lang}/>
             </section>
-            <section id="portfolio" class="py-20 scroll-mt-24"><h2 class="text-rose-2 text-2xl">Portfólio</h2></section>
-            <section id="sobre" class="py-20 scroll-mt-24"><h2 class="text-rose-2 text-2xl">Sobre o João</h2></section>
         </div>
     </div>
 </main>

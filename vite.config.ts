@@ -12,7 +12,7 @@ export default defineConfig({
 				runes: ({ filename }) => filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
 			paths: {
-				base: process.argv.includes('dev') ? '' : '/portolio'
+				base: process.argv.includes('dev') ? '' : '/portfolio'
 			},
 			adapter: adapter({
 				fallback: '404.html'
