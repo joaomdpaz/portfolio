@@ -14,7 +14,7 @@
 </script>
 
 <header class="sticky top-0 z-50 bg-brown">
-    <div class="mx-auto flex max-w-6xl justify-between items-end px-6 pt-8 pb-4">
+    <div class="mx-auto flex max-w-6xl justify-between items-end px-6 pt-4 pb-4">
         <!-- LEFT: fixed name -->
         <a href="#top" class="text-4xl font-semibold text-cream">{t.hero?.name ?? 'João Paz'}</a>
         <nav class="flex flex-col items-end gap-1">

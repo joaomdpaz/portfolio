@@ -6,7 +6,7 @@
 </script>
 
 
-<div class="space-y-4">
+<div class="space-y-2">
     <div class="space-y-1 text-2xl font-semibold text-rose-2">
         {#each t.roles as role}<p>{role}</p>{/each}
     </div>

@@ -9,7 +9,7 @@
 
     let glowStyle = $derived(
         `background: 
-        radial-gradient(circle 200px at ${x}px ${y}px, rgba(255,188,213,0.4), transparent 100%)`
+        radial-gradient(circle 200px at ${x}px ${y}px, rgba(255,188,213,0.3), transparent 100%)`
         );
 </script>
 
