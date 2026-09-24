@@ -16,7 +16,7 @@
 <header class="sticky top-0 z-50 bg-brown">
     <div class="mx-auto flex max-w-6xl justify-between items-end px-6 pt-8 pb-4">
         <!-- LEFT: fixed name -->
-        <a href="#top" class="text-4xl font-semibold text-rose-1">{t.hero?.name ?? 'João Paz'}</a>
+        <a href="#top" class="text-4xl font-semibold text-cream">{t.hero?.name ?? 'João Paz'}</a>
         <nav class="flex flex-col items-end gap-1">
             <div class="flex gap-2 text-sm tracking-widest">
                 <button
