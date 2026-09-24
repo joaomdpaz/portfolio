@@ -23,5 +23,13 @@ const iconUrl = (name: string): string => iconModules[`../assets/${name}`] ?? ''
                 {/each}
             </ul>
         </div>
+        <div class="row-3 col-span-3 bg-cream-2 rounded-xl p-5 grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-4">
+            {#each t.languageSkills as languageSkills}
+                <div class="grid grid-rows-2">
+                    <p class="text-sm text-brown leading-relaxed row-1 text-left font-semibold">{languageSkills.lang}</p>
+                    <p class="text-sm text-brown leading-relaxed row-2 text-left">{languageSkills.level}</p>
+                </div>
+            {/each}
+        </div>
     </div>
 </div>

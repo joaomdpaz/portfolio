@@ -47,7 +47,13 @@ export const translations = {
         iconName: 'chatCream.png',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel ornare nunc, eu lacinia nisl. Proin ullamcorper neque sit amet viverra iaculis. Quisque egestas nisl sed rutrum aliquet. Cras sit amet risus vel velit ullamcorper faucibus. In vitae leo sed dui porta euismod. Proin volutpat, nibh eget aliquet consectetur, tortor.'
       }],
-    techCheck: ['C#', 'C++','.NET', 'WPF', 'XAML', 'Xamarin', 'HTML', 'CSS', 'Javascript', 'Typescript', 'SvelteKit', 'Laravel', 'PHP', 'SQL', 'Node.js', 'REST API', 'Figma', 'Docker', 'Git', 'Linux']
+    techCheck: ['C#', 'C++','.NET', 'WPF', 'XAML', 'Xamarin', 'HTML', 'CSS', 'Javascript', 'Typescript', 'SvelteKit', 'Laravel', 'PHP', 'SQL', 'Node.js', 'REST API', 'Figma', 'Docker', 'Git', 'Linux'],
+    languageSkills: [
+      {lang: 'Português', level: 'Língua Materna'},
+      {lang: 'Inglês', level:'C2'},
+      {lang: 'Espanhol', level: 'A2'},
+      {lang: 'Alemão', level: 'A1'}
+    ]
     }
   },
   en: {
@@ -97,7 +103,13 @@ export const translations = {
         iconName: 'chatCream.png',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel ornare nunc, eu lacinia nisl. Proin ullamcorper neque sit amet viverra iaculis. Quisque egestas nisl sed rutrum aliquet. Cras sit amet risus vel velit ullamcorper faucibus. In vitae leo sed dui porta euismod. Proin volutpat, nibh eget aliquet consectetur, tortor.'
       }],
-    techCheck: ['C#', 'C++','.NET', 'WPF', 'XAML', 'Xamarin', 'HTML', 'CSS', 'Javascript', 'Typescript', 'SvelteKit', 'Laravel', 'PHP', 'SQL', 'Node.js', 'REST API', 'Figma', 'Docker', 'Git', 'Linux']
+    techCheck: ['C#', 'C++','.NET', 'WPF', 'XAML', 'Xamarin', 'HTML', 'CSS', 'Javascript', 'Typescript', 'SvelteKit', 'Laravel', 'PHP', 'SQL', 'Node.js', 'REST API', 'Figma', 'Docker', 'Git', 'Linux'],
+    languageSkills: [
+      {lang: 'Portuguese', level: 'Língua Materna'},
+      {lang: 'English', level:'C2'},
+      {lang: 'Spanish', level: 'A2'},
+      {lang: 'German', level: 'A1'}
+    ]
     }
   }
 } as const;
