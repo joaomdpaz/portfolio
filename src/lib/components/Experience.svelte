@@ -8,7 +8,7 @@
 <div>
     <p class="text-3xl font-semibold text-rose-2 text-right">{t.title}</p>
      {#each t.items as item}
-     <div class="grid grid-cols-[1fr_4fr] gap-x-2 mb-6 mt-4">
+     <div class="group grid grid-cols-[1fr_4fr] gap-x-2 mb-4 mt-4 rounded-xl p-4 md:p-5 ring-1 ring-transparent transition-[transform,box-shadow,background-color,border-color] duration-300 ease-out motion-safe:hover:-translate-y-1 hover:bg-rose-1/25 hover:shadow-[0_10px_40px_-10px_rgb(255,188,213,0.35)] hover:ring-rose-1/40">
         <div class="text-right col-2 row-1">
             <p class="text-base text-rose-2 leading-relaxed">{item.role}</p>
 

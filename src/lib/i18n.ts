@@ -54,7 +54,23 @@ export const translations = {
       {lang: 'Espanhol', level: 'A2'},
       {lang: 'Alemão', level: 'A1'}
     ]
-    }
+    },
+    portfolio: {
+      title: 'Portfolio',
+      items:[{
+      title: 'Catálogo CUCo Security Suite',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel ornare nunc, eu lacinia nisl. Proin ullamcorper neque sit amet viverra iaculis. Quisque egestas nisl sed rutrum aliquet. Cras sit amet risus vel velit ullamcorper faucibus. In vitae leo sed dui porta euismod. Proin volutpat, nibh eget aliquet consectetur, tortor.',
+      photoName: 'placeholder.jpeg',
+      slug: 'cuco-security-suite'
+      },
+      {
+        title:'myBloom',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel ornare nunc, eu lacinia nisl. Proin ullamcorper neque sit amet viverra iaculis. Quisque egestas nisl sed rutrum aliquet. Cras sit amet risus vel velit ullamcorper faucibus. In vitae leo sed dui porta euismod. Proin volutpat, nibh eget aliquet consectetur, tortor.',
+        photoName: 'myBloom.png',
+        slug: 'mybloom'
+      }
+    ]
+  }
   },
   en: {
     nav: {
@@ -110,6 +126,23 @@ export const translations = {
       {lang: 'Spanish', level: 'A2'},
       {lang: 'German', level: 'A1'}
     ]
-    }
+    },
+    portfolio: {
+      title: 'Portfolio',
+      items:[{
+      title: 'Catálogos CUCo Security Suite',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel ornare nunc, eu lacinia nisl. Proin ullamcorper neque sit amet viverra iaculis. Quisque egestas nisl sed rutrum aliquet. Cras sit amet risus vel velit ullamcorper faucibus. In vitae leo sed dui porta euismod. Proin volutpat, nibh eget aliquet consectetur, tortor.',
+      photoName: 'placeholder.jpeg',
+      slug: 'cuco-security-suite'
+      },
+      {
+        title:'myBloom',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel ornare nunc, eu lacinia nisl. Proin ullamcorper neque sit amet viverra iaculis. Quisque egestas nisl sed rutrum aliquet. Cras sit amet risus vel velit ullamcorper faucibus. In vitae leo sed dui porta euismod. Proin volutpat, nibh eget aliquet consectetur, tortor.',
+        photoName: 'myBloom.png',
+        
+        slug: 'mybloom'
+      }
+    ]
   }
+}
 } as const;
